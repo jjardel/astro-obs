@@ -1,0 +1,16 @@
+Dependencies:
+  Numpy
+  SciPy
+  astropy
+  pysao
+
+Input Files Required:
+  IFUcen.txt
+  center.coords
+  stars.phot
+  frame-g-003631-3-0238.fits.bz2
+
+Usage:
+  python FieldFinder.py
+  
+Edit kwargs to specify input filenames and parameters.
